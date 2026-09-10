@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <h4 class='alert-heading'>¡Archivo subido con éxito!</h4>
                         <p class='mb-0'>El archivo <strong>" . htmlspecialchars($nombreOriginal) . "</strong> se ha guardado correctamente.</p>
                         <hr>
-                        <a href='index.html' class='btn btn-outline-success btn-sm'>Volver al formulario</a>
+                        <a href='index.php' class='btn btn-outline-success btn-sm'>Volver al formulario</a>
                     </div>
                 </div>
             </body>
