@@ -37,6 +37,7 @@
                     <form action="subir.php" method="post" enctype="multipart/form-data">
                         <div class="mb-4">
                             <label for="archivo" class="form-label fw-bold text-secondary">Seleccione un archivo</label>
+                            <input type="hidden" name="MAX_FILE_SIZE" value="25000000" /> 
                             <input class="form-control form-control-lg" type="file" id="archivo" name="archivo" required>
                             <div class="form-text">Por favor elija el archivo que desea enviar al servidor.</div>
                         </div>
