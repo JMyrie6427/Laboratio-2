@@ -34,7 +34,7 @@
                 <div class="card card-custom p-4 bg-white">
                     <h3 class="card-title text-center mb-4 text-primary">Subir Archivo</h3>
 
-                    <form action="subir.php" method="post">
+                    <form action="subir.php" method="post" enctype="multipart/form-data">
                         <div class="mb-4">
                             <label for="archivo" class="form-label fw-bold text-secondary">Seleccione un archivo</label>
                             <input class="form-control form-control-lg" type="file" id="archivo" name="archivo" required>
