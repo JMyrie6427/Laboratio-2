@@ -46,7 +46,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
     } else {
-        echo "Error al cargar el archivo. Código: " . $_FILES['archivo']['error'];
+        echo "<!DOCTYPE html>
+            <html lang='es'>
+            <head>
+                <meta charset='UTF-8'>
+                <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css' rel='stylesheet'>
+            </head>
+            <body class='bg-light p-5'>
+                <div class='container col-md-6 text-center'>
+                    <div class='alert alert-danger p-4 shadow-sm' role='alert'>
+                        <h4 class='alert-heading'>¡El archivo no se pudo subir!</h4>
+                        <hr>
+                        <a href='index.php' class='btn btn-outline-success btn-sm'>Volver al formulario</a>
+                    </div>
+                </div>
+            </body>
+            </html>";
     }
 } else {
     header('Location: index.html');
