@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class='container col-md-6 text-center'>
                     <div class='alert alert-success p-4 shadow-sm' role='alert'>
                         <h4 class='alert-heading'>¡Archivo subido con éxito!</h4>
-                        <p class='mb-0'>El archivo <strong>" . htmlspecialchars($nombreOriginal) . "</strong> se ha guardado correctamente.</p>
+                        <p class='mb-0'>El archivo se ha guardado correctamente con el nombre de: " . htmlspecialchars($nombreOriginal) . "</p>
                         <hr>
                         <a href='index.php' class='btn btn-outline-success btn-sm'>Volver al formulario</a>
                     </div>
