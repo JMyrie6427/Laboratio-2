@@ -27,7 +27,7 @@
         </div>
     </header>
 
-    <!-- Formulario Principal kk -->
+    <!-- Formulario Principal  -->
     <main class="container">
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
