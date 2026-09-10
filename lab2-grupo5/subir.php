@@ -55,9 +55,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <body class='bg-light p-5'>
                 <div class='container col-md-6 text-center'>
                     <div class='alert alert-danger p-4 shadow-sm' role='alert'>
-                        <h4 class='alert-heading'>¡El archivo no se pudo subir!</h4>
+                        <h4 class='alert-heading'>¡El archivo excede el tamaño máximo aceptado!</h4>
                         <hr>
-                        <a href='index.php' class='btn btn-outline-success btn-sm'>Volver al formulario</a>
+                        <a href='index.php' class='btn btn-outline-danger btn-sm'>Volver al formulario</a>
                     </div>
                 </div>
             </body>
