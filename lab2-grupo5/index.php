@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grupo 5 - Carga de Archivos</title>
-    <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -26,15 +25,12 @@
 </head>
 <body>
 
-    <!-- Encabezado con Grid de Bootstrap -->
     <header class="header-container mb-5">
         <div class="container">
             <div class="row align-items-center">
-                <!-- Título "Grupo 5" -->
                 <div class="col-md-6 text-center text-md-start">
                     <h1 class="fw-bold m-0">Grupo 5</h1>
                 </div>
-                <!-- Nombres de los integrantes -->
                 <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
                     <span class="fs-6 d-block fw-light">Integrantes:</span>
                     <p class="m-0 fw-semibold">
@@ -53,14 +49,12 @@
                     <h3 class="card-title text-center mb-4 text-primary">Subir Archivo</h3>
                     
                     <form action="subir.php" method="POST" enctype="multipart/form-data">
-                        <!-- Campo para seleccionar archivo -->
                         <div class="mb-4">
                             <label for="archivo" class="form-label fw-bold text-secondary">Seleccione un archivo</label>
                             <input class="form-control form-control-lg" type="file" id="archivo" name="archivo" required>
                             <div class="form-text">Por favor elija el archivo que desea enviar al servidor.</div>
                         </div>
 
-                        <!-- Botón de envío -->
                         <div class="d-grid">
                             <button type="submit" class="btn btn-primary btn-lg fw-bold">
                                 Enviar Archivo
@@ -72,7 +66,6 @@
         </div>
     </main>
 
-    <!-- Bootstrap 5 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
 </body>
 </html>
